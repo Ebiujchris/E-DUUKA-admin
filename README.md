@@ -4,7 +4,7 @@ Standalone platform operations console for E-Duuka. It shows platform/shop accou
 
 Administrators can edit shop contact details, owner and staff account details, staff roles, and subscription settings. Shop and account access can be deactivated or reactivated without deleting records; historical data is preserved.
 
-The current subscription rate is UGX 30,000 per month. The Finances page shows monthly recurring value and its annualized run rate for active subscriptions. These are projections based on configured subscription prices, not proof that a shop has paid or historical income; confirmed income reports will require payment receipts.
+The current subscription rate is UGX 30,000 per month. Monthly access is limited to one calendar month; expired subscriptions block shop access. The customer app warns two days before the due date. The payment checkout is provider-neutral and remains unavailable until a payment gateway is integrated. The gateway must verify payment notifications server-side before automatically renewing a subscription; the Finances page shows recurring projections, not confirmed receipts or historical income.
 
 ## Run locally
 
